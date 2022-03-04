@@ -4,13 +4,12 @@ import java.util.Scanner;
 public class Main {
 
     static int index = 0;
-    static int ARRAY_SIZE = 0;
+    static int ARRAY_SIZE = 10;
     static Student[] students;
 
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        ARRAY_SIZE = Integer.parseInt(args[0]);
         students = new Student[ARRAY_SIZE];
         mainMenu();
 
